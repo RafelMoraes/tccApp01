@@ -1,0 +1,7 @@
+{
+  "name": "tccApp1",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

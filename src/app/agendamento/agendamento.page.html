@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Agendamento
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content color="dark">
+  <div color="dark">
+    <ion-item>
+      <ion-label>Selecione o dia</ion-label>
+      <ion-datetime  valuemax="2050-12-31" placeholder="Date" pickerFormat="D/M/YYYY". ></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Selecione o horário</ion-label>
+      <ion-datetime display-format="h:mm A" picker-format="h:mm A" value="1990-02-19T07:43Z"></ion-datetime>
+    </ion-item>
+  </div>
+</ion-content>
